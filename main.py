@@ -8,7 +8,7 @@ COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-STOCK_API_KEY = "K28Y41QU8POPNMP7"
+STOCK_API_KEY = "APIKEY"
 
 stock_params = {
     "function": "TIME_SERIES_DAILY",
@@ -38,7 +38,7 @@ else:
 
 
 if abs(change_percent) >= 5:
-    NEWS_API_KEY = "4047f49dd63146aeb0a6418caaccd604"
+    NEWS_API_KEY = "NEWS_API_KEY_HERE"
 
     news_params = {
             "apiKey": NEWS_API_KEY,
